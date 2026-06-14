@@ -7,7 +7,7 @@ description: >
   in sequence, the latest = "current"). It is built AFTER the AI studies the system
   (files, decisions, tasks, events, lines), then runs an ADAPTIVE interview that arcs
   diverge→converge (seed → brainstorm → future vision → re-pointed openers →
-  sparring-partner deepening) whose DEPTH is chosen up front via a MODE asked
+  sparring-partner deepening → wrap-up debrief) whose DEPTH is chosen up front via a MODE asked
   first — 🌿 лайтовый ≥15 questions · 🔭 нормальный ≥25 · 🧗 сложный 50 · 🌋 безумный ≥100,
   the floor a minimum that grows as answers need clarification — to surface what the human
   knows that the files don't. The output is a rich snapshot: current state · strengths /
@@ -147,6 +147,28 @@ last answer. Hunt specifically for:
 - The gap between **stated intent and actual behaviour** (files vs person).
 - What they're **avoiding** / not saying.
 
+**Movement 5 — Подведение итогов** *(CONVERGE · meta · close).* Once the main interview has
+saturated, close with a short free wrap-up — a **fixed 3-5-question ritual, NOT part of the
+depth floor** (the debrief doesn't scale with mode). Two jobs: let the participant
+*synthesize in their own words*, and catch what the protocol missed. Ask openly:
+- **Что вскрылось / удивило / открылось, пока говорил?** — the interview is *generative*;
+  surprise and «не думал об этом так» mark fresh insight (not restatement) → feeds
+  §15/§16, raises confidence. Surprise is the signal that the talking *produced* something.
+- **Что порадовало?** — the *Glad* note: what felt good to surface or realize → §10
+  emotional read; a deep session shouldn't land only on pains.
+- **О чём я не спросил, а стоило? Что ещё?** — the ethnographic *grand-tour closing*; the
+  most valuable answer often lands here → §11 blind spots. **This is also the last
+  saturation check** — if it opens a live thread, you are **not** done; loop back.
+- **Что было интересным / что нудным?** — *plus-delta* feedback on the interview process
+  itself → one calibration line in §0 (improves future states), not core diagnosis.
+- **Как ты сейчас?** — emotional landing / *debrief* after a deep session; close gently,
+  let them decompress → §10.
+
+Grounded in established practice: ethnographic *grand-tour closing* (Spradley),
+*member-checking* (reflect your rough read back lightly — "я правильно понял?" — without
+sliding into full synthesis, which is Phase 4), *plus-delta / ROTI* from retrospectives,
+and *debrief/decompression* from research ethics. Log Movement 5 to §17 like any round.
+
 **Coverage map — the threads to cover (so you don't loop on one and miss others).** Keep a
 running mental (or scratch) checklist of which threads have been opened and which are still
 untouched; on each batch, either *deepen* a live thread or *open* an untouched one. The
@@ -187,7 +209,8 @@ yourself: did the last 2-3 answers change the picture, or just confirm it? Stop 
 (c) the last round produced no new signal — only restatement. If a thread is still
 untouched at the floor, you are **not** done even if the number is hit. Conversely, if a
 light system genuinely saturates before the floor, say so explicitly rather than pad
-(record it in §0) — honesty beats a hollow count.
+(record it in §0) — honesty beats a hollow count. **Movement 5's «о чём я не спросил» is the
+final saturation check** — if it reopens a thread, you saturated too early; loop back.
 
 **Log verbatim as you go — write to the file incrementally.** Append each round to §17 of
 the draft state file *as it happens* (or to a scratch file you fold in), not from memory at
@@ -366,6 +389,9 @@ note it). Do NOT summarize or clean up the answers; paste them as given.
   movement 4 (sparring), the generative movements stay small and low-trust.
 - **Critiquing during the brainstorm** — sparring in movement 1 shuts down the free dump.
   Generate first (no "but"), converge later.
+- **Ending cold on the last sparring question** — no wrap-up, no «о чём я не спросил», no
+  emotional landing. Movement 5 catches missed threads, harvests the participant's own
+  crystallized insight, and lets a deep session decompress; skipping it loses all three.
 - **Padding to hit the mode's floor** — inventing filler questions to reach the number.
   The floor is met by pursuing *real* threads deeper, never by busywork; if a light system
   genuinely saturates early, say so rather than pad.
