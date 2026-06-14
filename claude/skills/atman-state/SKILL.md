@@ -56,9 +56,11 @@ Read, for `systems/<name>/`:
 - `decisions/` — every decision + its WHY and rejected alternatives.
 - `states/` — **all prior states** (the trajectory; what changed since last snapshot).
 - `handoffs/` — the latest handoffs (where recent blocks left things).
-- the system's own artifacts (e.g. for `girls`: `lines/`).
-- `bin/` cross-system artifacts tagged to this system: `events/`, `observations/`,
-  `experiences/`, `tasks/`, `principles/`.
+- the system's own artifacts: `observations/`, `experiences/`, `events/`, `tasks/`,
+  `research/`, and domain-specific (e.g. for `girls`: `lines/`).
+- `bin/` only for cross-system / methodology artifacts tagged to this system
+  (`principles/`, shared `events/`). Project-specific artifacts live in the system
+  ([[dec-atman-project-artifacts-location]]).
 
 Produce a short **study brief** (internal): current устройство, what the numbers say
 (targets vs reality), what the last state said, what changed since, open decisions /
@@ -100,9 +102,20 @@ before 15**, and past 15 stop only when fresh questions stop yielding new signal
 because a number was hit). The interview is data collection, not advice — save
 recommendations for the synthesis.
 
+**Log verbatim as you go.** Keep a running record of every question, the one-line
+reasoning for WHY you asked it, and the user's answer **word-for-word** — this becomes
+§17 (Транскрипт интервью) of the state. Don't reconstruct it from memory at the end;
+capture it live so the transcript is faithful.
+
 > **Immediate-capture:** if the interview surfaces a real decision, principle, or
 > observation, capture it to its own vault artifact *as you go* — don't let it live
 > only inside the state file.
+>
+> **Where it goes (location):** a project-specific artifact lives **in its system** —
+> `systems/<name>/observations/`, `systems/<name>/decisions/`, etc. — **NOT** in
+> `bin/`. `bin/<type>/` is only for cross-system / methodology artifacts. Per
+> [[dec-atman-project-artifacts-location]]. So an observation about the system you're
+> snapshotting goes to `systems/<name>/observations/YYYY-MM-DD--observation--<slug>.md`.
 
 ### Phase 3 — ANALYZE & ENRICH (AI passes + delegated research)
 
@@ -224,6 +237,19 @@ anti-habits; plus what was learned this period and what is longed-for (4Ls).
 ## 16. Точка рычага + предлагаемые шаги
 The leverage point (small effort → big effect), then ordered next actions
 (start / stop / continue), value-per-effort first. The bridge out of the snapshot.
+
+## 17. Транскрипт интервью (дословно)
+The FULL verbatim interview log — every question, the reasoning WHY it was asked,
+and the user's answer **verbatim** (original language; quotes are data, not
+translated). Chronological. This is what lets a future reader (or the user) re-walk
+how the diagnosis drilled down layer by layer — the reasoning is as valuable as the
+answers. Format each round as:
+
+> **Вопрос(ы) N (зачем):** <the question(s)> — _why asked: <one line of reasoning>_
+> **Ответ (дословно):** «<user's exact words>»
+
+Include the layer-corrections too (when a later answer overturned an earlier read —
+note it). Do NOT summarize or clean up the answers; paste them as given.
 ```
 
 ---
